@@ -1,0 +1,16 @@
+{
+    "name": "婴睿 · AI 生命监护",
+    "short_name": "婴睿监护",
+    "start_url": "pwa.html",
+    "display": "standalone",
+    "background_color": "#0a1929",
+    "theme_color": "#00f0ff",
+    "icons": [
+        {
+            "src": "icon.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

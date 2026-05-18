@@ -554,15 +554,17 @@
             }catch(e){}
         }
 
-        // PWA Service Worker 注册
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-            .then(reg => console.log('Service Worker 已注册'))
-            .catch(err => console.log('SW 注册失败', err));
-    });
-}
-<script src="./mqttws31.js">
+         // PWA Service Worker 注册
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker 已注册'))
+                    .catch(err => console.log('SW 注册失败', err));
+            });
+        }
     </script>
+
+    <!-- 本地 MQTT 库 -->
+    <script src="./mqttws31.js"></script>
 </body>
 </html>

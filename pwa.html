@@ -562,10 +562,7 @@ if ('serviceWorker' in navigator) {
             .catch(err => console.log('SW 注册失败', err));
     });
 }
-        // 加载 MQTT 库
-        const mqttScript = document.createElement('script');
-        mqttScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js';
-        document.head.appendChild(mqttScript);
+<script src="./mqttws31.js">
     </script>
 </body>
 </html>

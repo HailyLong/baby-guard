@@ -1,15 +1,28 @@
 {
-    "name": "婴睿 · AI 生命监护",
-    "short_name": "婴睿监护",
-    "start_url": "pwa.html",
-    "display": "standalone",
-    "background_color": "#0a1929",
-    "theme_color": "#00f0ff",
-   "icons": [
+  "name": "婴睿 · AI 生命监护",
+  "short_name": "婴睿监护",
+  "description": "基于AI哭声识别的婴儿生命体征监测系统，支持心率、呼吸、体动与温湿度显示",
+  "start_url": "./pwa.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a1929",
+  "theme_color": "#00f0ff",
+  "scope": "./",
+  "lang": "zh-CN",
+  "categories": ["health", "lifestyle", "medical"],
+  "icons": [
     {
-        "src": "icon.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-]
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}

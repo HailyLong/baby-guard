@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.hailylong.twa",
+        "sha256_cert_fingerprints": ["9A:D7:19:60:94:35:81:C0:9F:74:17:DF:BD:41:D9:92:62:2B:9E:62:A8:BD:59:71:E2:13:24:8B:87:C0:5B:A2"]
+      }
+    }]
